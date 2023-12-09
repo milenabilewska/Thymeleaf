@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Przedsiębiorcy XYZ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f7f7f7; /* Jasnoszare tło */
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50; /* Zielony kolor nagłówka */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        main {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        h1 {
+            color: #333; /* Czarny kolor tytułów */
+        }
+
+        section {
+            background-color: #fff; /* Białe tło sekcji */
+            color: #333; /* Czarny kolor tekstu */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 30%;
+        }
+
+        h2 {
+            color: #4CAF50; /* Zielony kolor tytułów sekcji */
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #4CAF50; /* Zielony kolor stopki */
+            color: #fff;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            clear: both;
+        }
+
+        .contact-form {
+            background-color: #eee; /* Szare tło formularza kontaktowego */
+            color: #333; /* Czarny kolor tekstu w formularzu */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        input, textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #4CAF50; /* Zielony kolor obramowania dla pól formularza */
+            border-radius: 5px;
+            background-color: #fff; /* Białe tło pól formularza */
+            color: #333; /* Czarny kolor tekstu w pólach formularza */
+        }
+
+        button {
+            background-color: #4CAF50; /* Zielony kolor przycisku */
+            color: #fff; /* Biały kolor tekstu na przycisku */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #333; /* Czarny kolor tła po najechaniu na przycisk */
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Strona Przedsiębiorcy XYZ</h1>
+    <p>Twój sukces zaczyna się tutaj!</p>
+</header>
+
+<main>
+    <section>
+        <h2>O Nas</h2>
+        <p>Jesteśmy dynamiczną firmą oferującą innowacyjne rozwiązania dla przedsiębiorców. Naszym celem jest wspieranie rozwoju biznesu i osiąganie wspólnego sukcesu.</p>
+    </section>
+
+    <section>
+        <h2>Nasze Usługi</h2>
+        <ul>
+            <li><strong>Konsultacje Biznesowe:</strong> Pomagamy w opracowaniu strategii rozwoju biznesu.</li>
+            <li><strong>Marketing Online:</strong> Skuteczne kampanie reklamowe w internecie.</li>
+            <li><strong>Zarządzanie Projektem:</strong> Profesjonalne zarządzanie projektami dla osiągnięcia celów biznesowych.</li>
+        </ul>
+    </section>
+
+    <section class="contact-form">
+        <h2>Kontakt</h2>
+        <form>
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Strona Przedsiębiorcy XYZ. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
